@@ -17,6 +17,7 @@ BG_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("imgs", "bg.png
 
 STAT_FONT = pygame.font.SysFont("comicsans", 50)
 
+
 class Bird:
     IMGS = BIRD_IMGS
     MAX_ROTATION = 25
